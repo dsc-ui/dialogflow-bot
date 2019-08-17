@@ -1,0 +1,85 @@
+1. Open the github url - https://github.com/dsc-ui/dialogflow-bot
+
+2. Open https://dialogflow.com/
+
+3. Sign in and go to console
+    
+4. Create an Agent
+
+5. Integration to TELEGRAM
+    
+    Create Intents
+        1. Welcome
+            Responses:
+                Text: Hi there!. Welcome to DSC UI. How may I help you?
+                Quick Replies:
+                    Title: Select an option below 👇
+                    Options:
+                        * About Google
+                        * About DSC UI
+                        * Google Products
+                        * Contact DSC
+                        
+                        
+        2. About Google
+            Training Phrase(s):
+                * About Google
+                * I want to know more about google
+                * What exactly is google?
+            Responses:
+                * Google is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.
+                
+                * Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California.
+                
+                * Google mission is to organize the world’s information and make it universally accessible and useful.
+                
+            
+        3. About DSC
+            Training Phrase(s):
+                * About DSC
+                * Tell me more about DSC
+            Responses:
+                * Developer Student Clubs (DSC) are community groups for students from any academic background in their undergraduate or graduate term. By joining a DSC, students build their professional and personal network, get access to Google developer resources, and work together to build solutions for local problems in a peer-to-peer learning environment.
+
+                * This is the University of Ibadan (UI) chapter of DSC.
+                
+                
+                
+        4. Google Products
+            Training Phrase(s):
+                * Google Products
+                * Give me a list of google products
+            Responses:
+                * Here are some popular products of Google:
+
+                * Android, Chrome, Gmail, Google Cloud Platforms, Map, Search and YouTube.
+                
+                * Visit https://developers.google.com/products/ to know more.
+                
+                
+                
+        5. DSC Contact:
+            Training Phrase(s):
+                * Contact DSC
+                * How can I reach you?
+            Responses:
+                You can reach us through any these media:
+
+                Email: dsc.unibadan@gmail.com
+
+                Twitter: @dsc_ui
+
+                Phone Number: 
+                Olu-flourish +234 8161691655 
+                Michael +234 8102723247
+
+                Telegram: @dscui_bot
+                
+                
+        6. End:
+            Training Phrase(s):
+                * end
+                * bye
+            Responses:
+                * Thank you for reaching out. Feel free to checkout our options.
+                
