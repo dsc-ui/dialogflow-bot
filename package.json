@@ -2,6 +2,9 @@
   "name": "dsc-ui-bot",
   "version": "1.0.0",
   "description": "A Google Dialogflow callback application",
+  "engines": {
+    "node": "8.x"
+  },
   "scripts": {
     "start": "node ./server",
     "dev": "nodemon ./server"
